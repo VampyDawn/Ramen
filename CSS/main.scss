@@ -1,5 +1,6 @@
 $primary: #343434;
 $secondary: #4355a6;
+$white: #fff;
 $transition: all .25s ease;
 
 .nav-container {
@@ -15,7 +16,7 @@ $transition: all .25s ease;
             margin: 0px 5px;
             border-radius: 15px;
             outline: 2px solid transparent;
-            box-shadow: 0 0 0px white;
+            box-shadow: 0 0 0px $white;
             transition: $transition;
             a {
                 background-color: $secondary;
@@ -31,14 +32,14 @@ $transition: all .25s ease;
                 padding: 5px 15px;
                 display: none;
                 &:hover {
-                    outline: 2px solid white;
+                    outline: 2px solid $white;
                 }
             }
             &:hover {
-                box-shadow: 0 0 20px white;
+                box-shadow: 0 0 20px $white;
                 transition: $transition;
                 a {
-                    outline: 2px solid white;
+                    outline: 2px solid $white;
                 }
             }
         }
@@ -85,8 +86,8 @@ $transition: all .25s ease;
                     height: 250px;
                 }
                 &:hover {
-                    border: 5px solid white;
-                    box-shadow: 0 0 25px white;
+                    border: 5px solid $white;
+                    box-shadow: 0 0 25px $white;
                     transform: scale(1.1);
                     transition: $transition;
                 }
@@ -147,8 +148,8 @@ $transition: all .25s ease;
                 }
             }
             &:hover {
-                outline: 5px solid white;
-                box-shadow: 0 0 25px white;
+                outline: 5px solid $white;
+                box-shadow: 0 0 25px $white;
                 transition: $transition;
             }
         
@@ -178,8 +179,8 @@ $transition: all .25s ease;
                 background: $primary;
                 border-radius: 25px 25px 0 0;
                 margin: 0px 20px;
-                outline: 5px solid white;
-                box-shadow: 0 0 0px white;
+                outline: 5px solid $white;
+                box-shadow: 0 0 0px $white;
                 transition: $transition;
                 h2 {
                     margin: 5px 0px 5px 5px;
@@ -190,11 +191,11 @@ $transition: all .25s ease;
                 justify-content: center;
                 align-items: center;
                 overflow: hidden;
-                border: 5px solid white;
+                border: 5px solid $white;
                 height: 450px;
                 border-radius: 25px;
                 position: relative;
-                box-shadow: 0 0 0px white;
+                box-shadow: 0 0 0px $white;
                 transition: $transition;
                 .char-img {
                     height: 500px;
@@ -210,7 +211,7 @@ $transition: all .25s ease;
                     padding: 10px 0;
                     text-align: center;
                     vertical-align: middle;
-                    outline: 5px solid white;
+                    outline: 5px solid $white;
                 }
                 .char-series-img {
                     position: absolute;
@@ -218,7 +219,7 @@ $transition: all .25s ease;
                     bottom: 0px;
                     right: 0px;
                     border-radius: 25px 0 0 0;
-                    outline: 5px solid white;
+                    outline: 5px solid $white;
                 }
                 .char-tier {
                     width: 40px;
@@ -230,7 +231,7 @@ $transition: all .25s ease;
                     padding: 10px;
                     text-align: center;
                     vertical-align: middle;
-                    outline: 2px solid white;
+                    outline: 2px solid $white;
                 }
                 .char-aff {
                     top: -10px;
@@ -240,18 +241,18 @@ $transition: all .25s ease;
                     padding: 10px;
                     text-align: center;
                     vertical-align: middle;
-                    outline: 2px solid white;
+                    outline: 2px solid $white;
                 }
             }
             &:hover {
                 .char-img-container {
-                    box-shadow: 0 0 20px white;
+                    box-shadow: 0 0 20px $white;
                     transition: $transition;
                     transform: scale(1.05);
                     transform-origin: top;
                 }
                 .card-row-1 {
-                    box-shadow: 0 0 20px white;
+                    box-shadow: 0 0 20px $white;
                     transition: $transition;
                     transform: scale(1.025);
                 }
@@ -287,7 +288,7 @@ $transition: all .25s ease;
                 height: 450px;
                 position: relative;
                 border-radius: 25px 25px 0 0;
-                outline: 4px solid white;
+                outline: 4px solid $white;
                 .lf-img {
                     height: 550px;
                 }
@@ -302,14 +303,14 @@ $transition: all .25s ease;
                     padding: 10px;
                     text-align: center;
                     vertical-align: middle;
-                    outline: 2px solid white;
+                    outline: 2px solid $white;
                 }
                 h2 {
                     position: absolute;
                     background: $primary;
                     vertical-align: middle;
                     padding: 10px;
-                    outline: 5px solid white;
+                    outline: 5px solid $white;
                 }
                 .lf-name {
                     bottom: -20px;
@@ -363,7 +364,7 @@ $transition: all .25s ease;
                     width: 152px;
                     right: 1px;
                     top: 5px;
-                    outline: 5px solid white;
+                    outline: 5px solid $white;
                     border-radius: 0 0 15px 0;
                 }
             }
@@ -383,13 +384,13 @@ $transition: all .25s ease;
                     height: 40px;
                     text-align: center;
                     vertical-align: middle;
-                    outline: 2px solid white;
+                    outline: 2px solid $white;
                     background: $primary;
                 }
             }
             &:hover {
-                outline: 5px solid white;
-                box-shadow: 0 0 25px white;
+                outline: 5px solid $white;
+                box-shadow: 0 0 25px $white;
                 transition: $transition;
             }
         }
