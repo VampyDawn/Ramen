@@ -3,14 +3,14 @@ body {
 }
 
 html {
-  color: white;
+  color: #fff;
   font-family: "Poppins", sans-serif;
   background: #343434;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: #fff;
 }
 
 .container {

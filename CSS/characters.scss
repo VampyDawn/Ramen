@@ -1,0 +1,25 @@
+$primary: #343434;
+$secondary: #4355a6;
+$white: #fff;
+$transitionShort: all .25s ease;
+$transitionLong: all 2s ease;
+
+header {
+    background: $secondary;
+    padding: 15px;
+    border-bottom: 2px solid $white;
+    .back-btn {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-left: 10px;
+        text-transform: uppercase;
+        background-color: $primary;
+        outline: 3px solid $white;
+        border-radius: 25px;
+        padding: 5px 10px;
+        cursor: pointer;
+        i {
+            margin-right: 5px;
+        }
+    }
+}

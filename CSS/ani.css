@@ -1,7 +1,7 @@
 header {
   background: #4355a6;
   padding: 15px;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #fff;
 }
 header .back-btn {
   font-size: 1.5rem;
@@ -9,7 +9,7 @@ header .back-btn {
   margin-left: 10px;
   text-transform: uppercase;
   background-color: #343434;
-  outline: 3px solid white;
+  outline: 3px solid #fff;
   border-radius: 25px;
   padding: 5px 10px;
   cursor: pointer;
@@ -44,8 +44,8 @@ header .back-btn i {
   width: 225px;
 }
 #top-ten .container .img-container .img:hover {
-  outline: 5px solid white;
-  box-shadow: 0 0 20px white;
+  outline: 5px solid #fff;
+  box-shadow: 0 0 20px #fff;
   transition: all 0.25s ease;
 }
 #top-ten .container .about {
@@ -62,8 +62,8 @@ header .back-btn i {
   cursor: pointer;
 }
 #top-ten .container .about .name:hover {
-  outline: 2px solid white;
-  box-shadow: 0 0 10px white;
+  outline: 2px solid #fff;
+  box-shadow: 0 0 10px #fff;
   transition: all 0.25s ease;
 }
 #top-ten .container .about .desc {

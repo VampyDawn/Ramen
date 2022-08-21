@@ -7,14 +7,14 @@ $transitionLong: all 2s ease;
 header {
     background: $secondary;
     padding: 15px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid $white;
     .back-btn {
         font-size: 1.5rem;
         margin-top: 0;
         margin-left: 10px;
         text-transform: uppercase;
         background-color: $primary;
-        outline: 3px solid white;
+        outline: 3px solid $white;
         border-radius: 25px;
         padding: 5px 10px;
         cursor: pointer;
@@ -48,8 +48,8 @@ header {
                 height: 320px;
                 width: 225px;
                 &:hover {
-                    outline: 5px solid white;
-                    box-shadow: 0 0 20px white;
+                    outline: 5px solid $white;
+                    box-shadow: 0 0 20px $white;
                     transition: $transitionShort;
                 }
             }
@@ -66,8 +66,8 @@ header {
                 transition: $transitionShort;
                 cursor: pointer;
                 &:hover {
-                    outline: 2px solid white;
-                    box-shadow: 0 0 10px white;
+                    outline: 2px solid $white;
+                    box-shadow: 0 0 10px $white;
                     transition: $transitionShort;
                 }
             }

@@ -13,7 +13,7 @@
   margin: 0px 5px;
   border-radius: 15px;
   outline: 2px solid transparent;
-  box-shadow: 0 0 0px white;
+  box-shadow: 0 0 0px #fff;
   transition: all 0.25s ease;
 }
 .nav-container ul li a {
@@ -31,14 +31,14 @@
   display: none;
 }
 .nav-container ul li .icon:hover {
-  outline: 2px solid white;
+  outline: 2px solid #fff;
 }
 .nav-container ul li:hover {
-  box-shadow: 0 0 20px white;
+  box-shadow: 0 0 20px #fff;
   transition: all 0.25s ease;
 }
 .nav-container ul li:hover a {
-  outline: 2px solid white;
+  outline: 2px solid #fff;
 }
 
 #banner .banner-container {
@@ -84,8 +84,8 @@
   height: 250px;
 }
 #banner .banner-container .banner-content .pfp-container:hover {
-  border: 5px solid white;
-  box-shadow: 0 0 25px white;
+  border: 5px solid #fff;
+  box-shadow: 0 0 25px #fff;
   transform: scale(1.1);
   transition: all 0.25s ease;
 }
@@ -141,8 +141,8 @@
   text-decoration: underline;
 }
 #about .container .info-container:hover {
-  outline: 5px solid white;
-  box-shadow: 0 0 25px white;
+  outline: 5px solid #fff;
+  box-shadow: 0 0 25px #fff;
   transition: all 0.25s ease;
 }
 
@@ -169,8 +169,8 @@
   background: #343434;
   border-radius: 25px 25px 0 0;
   margin: 0px 20px;
-  outline: 5px solid white;
-  box-shadow: 0 0 0px white;
+  outline: 5px solid #fff;
+  box-shadow: 0 0 0px #fff;
   transition: all 0.25s ease;
 }
 #top-cards .card-pack .card .card-row-1 h2 {
@@ -181,11 +181,11 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  border: 5px solid white;
+  border: 5px solid #fff;
   height: 450px;
   border-radius: 25px;
   position: relative;
-  box-shadow: 0 0 0px white;
+  box-shadow: 0 0 0px #fff;
   transition: all 0.25s ease;
 }
 #top-cards .card-pack .card .char-img-container .char-img {
@@ -202,7 +202,7 @@
   padding: 10px 0;
   text-align: center;
   vertical-align: middle;
-  outline: 5px solid white;
+  outline: 5px solid #fff;
 }
 #top-cards .card-pack .card .char-img-container .char-series-img {
   position: absolute;
@@ -210,7 +210,7 @@
   bottom: 0px;
   right: 0px;
   border-radius: 25px 0 0 0;
-  outline: 5px solid white;
+  outline: 5px solid #fff;
 }
 #top-cards .card-pack .card .char-img-container .char-tier {
   width: 40px;
@@ -222,7 +222,7 @@
   padding: 10px;
   text-align: center;
   vertical-align: middle;
-  outline: 2px solid white;
+  outline: 2px solid #fff;
 }
 #top-cards .card-pack .card .char-img-container .char-aff {
   top: -10px;
@@ -232,16 +232,16 @@
   padding: 10px;
   text-align: center;
   vertical-align: middle;
-  outline: 2px solid white;
+  outline: 2px solid #fff;
 }
 #top-cards .card-pack .card:hover .char-img-container {
-  box-shadow: 0 0 20px white;
+  box-shadow: 0 0 20px #fff;
   transition: all 0.25s ease;
   transform: scale(1.05);
   transform-origin: top;
 }
 #top-cards .card-pack .card:hover .card-row-1 {
-  box-shadow: 0 0 20px white;
+  box-shadow: 0 0 20px #fff;
   transition: all 0.25s ease;
   transform: scale(1.025);
 }
@@ -274,7 +274,7 @@
   height: 450px;
   position: relative;
   border-radius: 25px 25px 0 0;
-  outline: 4px solid white;
+  outline: 4px solid #fff;
 }
 #looking-for .lf-char-pack .lf-char .lf-img-container .lf-img {
   height: 550px;
@@ -290,14 +290,14 @@
   padding: 10px;
   text-align: center;
   vertical-align: middle;
-  outline: 2px solid white;
+  outline: 2px solid #fff;
 }
 #looking-for .lf-char-pack .lf-char .lf-img-container h2 {
   position: absolute;
   background: #343434;
   vertical-align: middle;
   padding: 10px;
-  outline: 5px solid white;
+  outline: 5px solid #fff;
 }
 #looking-for .lf-char-pack .lf-char .lf-img-container .lf-name {
   bottom: -20px;
@@ -351,7 +351,7 @@
   width: 152px;
   right: 1px;
   top: 5px;
-  outline: 5px solid white;
+  outline: 5px solid #fff;
   border-radius: 0 0 15px 0;
 }
 #looking-for .lf-char-pack .lf-char .lf-rarity-title {
@@ -371,12 +371,12 @@
   height: 40px;
   text-align: center;
   vertical-align: middle;
-  outline: 2px solid white;
+  outline: 2px solid #fff;
   background: #343434;
 }
 #looking-for .lf-char-pack .lf-char:hover {
-  outline: 5px solid white;
-  box-shadow: 0 0 25px white;
+  outline: 5px solid #fff;
+  box-shadow: 0 0 25px #fff;
   transition: all 0.25s ease;
 }
 

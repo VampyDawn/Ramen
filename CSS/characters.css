@@ -1,0 +1,19 @@
+header {
+  background: #4355a6;
+  padding: 15px;
+  border-bottom: 2px solid #fff;
+}
+header .back-btn {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-left: 10px;
+  text-transform: uppercase;
+  background-color: #343434;
+  outline: 3px solid #fff;
+  border-radius: 25px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+header .back-btn i {
+  margin-right: 5px;
+}/*# sourceMappingURL=characters.css.map */
