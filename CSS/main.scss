@@ -2,29 +2,6 @@ $primary: #343434;
 $secondary: #4355a6;
 $transition: all .25s ease;
 
-
-body {
-    margin: 0;
-}
-
-html {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    background: $primary;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 .nav-container {
     background: $primary;
     ul {
@@ -301,8 +278,8 @@ a {
             background-color: $secondary;
             height: 675px;
             position: relative;
-            outline: 0px solid white;
-            box-shadow: 0 0 0px white;
+            outline: 0px solid transparent;
+            box-shadow: 0 0 0px transparent;
             transition: $transition;
             .lf-img-container {
                 text-align: center;

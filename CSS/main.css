@@ -1,25 +1,3 @@
-body {
-  margin: 0;
-}
-
-html {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  background: #343434;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .nav-container {
   background: #343434;
 }
@@ -286,8 +264,8 @@ a {
   background-color: #4355a6;
   height: 675px;
   position: relative;
-  outline: 0px solid white;
-  box-shadow: 0 0 0px white;
+  outline: 0px solid transparent;
+  box-shadow: 0 0 0px transparent;
   transition: all 0.25s ease;
 }
 #looking-for .lf-char-pack .lf-char .lf-img-container {

@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+html {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background: $primary;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
